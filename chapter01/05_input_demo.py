@@ -1,0 +1,1 @@
+print(f'{input('Please enter your name: ')}, you are {2025 - int(input('Please insert the year of your birth: '))} years old')
