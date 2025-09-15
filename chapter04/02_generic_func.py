@@ -61,7 +61,8 @@ def main():
     mixed_values = [0, True, False, 'Hi', '', None,  17]
     print(count_truthy(mixed_values))
     print(len_str('Hello World'))
-    print(len_str(None))
+    print(len_str()) #Default: None
+    print(len_str([]))
 
 
 if __name__ == '__main__':
